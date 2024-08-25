@@ -38,7 +38,7 @@
             android:key="qqs_num_columns"
             android:title="@string/qqs_columns"
             android:min="@string/qqs_columns_min"
-            android:max="5"
+            android:max="6"
             android:defaultValue="5"
             settings:textStart="@string/qqs_columns_min"
             settings:textEnd="@string/qqs_columns_max" />
@@ -57,7 +57,7 @@
             android:title="@string/qs_columns"
             android:min="@string/qs_columns_min"
             android:max="7"
-            android:defaultValue="4"
+            android:defaultValue="3"
             settings:textStart="@string/qs_columns_min"
             settings:textEnd="@string/qs_columns_max" />
 

@@ -37,12 +37,12 @@
     <string name="status_bar_clock_title"></string>
 
     <!-- blazehouse categories -->
-    <string name="status_bar_category">Statusbar</string>
-    <string name="notifications_panel_category">QS panel</string>
+    <string name="status_bar_category">StatusBar</string>
+    <string name="notifications_panel_category">QS Panel</string>
     <string name="system_category">System</string>
     <string name="lockscreen_category">Lockscreen</string>
     <string name="themes_category">Themes</string>
-    <string name="build_tweaks_summary_title">Get Amazed with Blaze !!!</string>
+    <string name="build_tweaks_summary_title">Customize your phone with some fair tweaks!</string>
     <string name="listview">ListView</string>
     <string name="icons_category">Icon Options</string>
     <string name="fingerprint_category">Fingerprint</string>
@@ -57,9 +57,9 @@
     <string name="unit_pixels" translatable="false">dp</string>
 
     <!-- App info dialog -->
-    <string name="blazehouse_dialog_title">Help us help you!</string>
-    <string name="blazehouse_dialog_message">If you find a bug with any of these settings, report it in our Telegram Group. You MUST include the following when posting a bug report:\n\n1. A logcat or last_kmsg\n2. Kernel and mods used\n3. Useful information\n\nIf you fail to report something adequately, DO NOT expect things to be fixed.</string>
-    <string name="blazehouse_dialog_toast">READ THE WHOLE THING!</string>
+    <string name="blazehouse_dialog_title">About FairBlaze</string>
+    <string name="blazehouse_dialog_message">This is a enchanced version of ProjectBlaze ROM, ported for Fairphone 4 by lixkote with some additional features. Make sure to check out the original project. All credit goes to the original authors of ProjectBlaze.</string>
+    <string name="blazehouse_dialog_toast">Make sure to read the whole message!</string>
 
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
@@ -91,8 +91,8 @@
     <string name="theme_customization_data_summary">Set custom data icon style</string>
 
     <!-- Custom Navigation bar -->
-    <string name="theme_customization_navbar_title">Navbar style</string>
-    <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
+    <string name="theme_customization_navbar_title">Navigation bar style</string>
+    <string name="theme_customization_navbar_summary">Set custom navigation bar style (Works best on classic 3-button layout)</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_state_title">Network traffic indicator</string>
@@ -128,7 +128,7 @@
     <string name="qs_tile_shape">QS tile shape</string>
     <string name="qs_tile_round">Round</string>
     <string name="qs_tile_rect">Rounded Rectangle</string>
-    <string name="qs_tile_mix">Round for active tiles and Rounded Rectangle for inactive tiles</string>
+    <string name="qs_tile_mix">(Inspired by Android 12 Beta) Mixed</string>
 
     <!-- QS brightness slider -->
     <string name="category_name_qs_brightness_slider">Brightness slider</string>
@@ -145,26 +145,26 @@
     <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 
     <!-- QS style -->
-    <string name="qs_style_title">QS Panel style</string>
-    <string name="qs_style_default">Android 14</string>
-    <string name="qs_style_round">Android 11</string>
+    <string name="qs_style_title">Quick Settings style</string>
+    <string name="qs_style_default">Modern (Android 14)</string>
+    <string name="qs_style_round">Classic (Android 11)</string>
 
     <!-- QS columns customization -->
-    <string name="qs_columns">QS columns in portrait (SystemUI restart required)</string>
+    <string name="qs_columns">QS columns in portrait</string>
     <string name="qs_columns_min" translatable="false">2</string>
-    <string name="qs_columns_max" translatable="false">5</string>
-    <string name="qs_columns_landscape">QS columns in landscape (SystemUI restart required)</string>
+    <string name="qs_columns_max" translatable="false">6</string>
+    <string name="qs_columns_landscape">QS columns in landscape</string>
     <string name="qs_columns_landscape_min" translatable="false">@string/qs_columns_min</string>
     <string name="qs_columns_landscape_max" translatable="false">6</string>
-    <string name="qqs_columns">QQS columns in portrait (SystemUI restart required)</string>
+    <string name="qqs_columns">Collapsed QS columns in portrait</string>
     <string name="qqs_columns_min" translatable="false">@string/qs_columns_min</string>
     <string name="qqs_columns_max" translatable="false">@string/qs_columns_max</string>
-    <string name="qqs_columns_landscape">QQS columns in landscape (SystemUI restart required)</string>
+    <string name="qqs_columns_landscape">Collapsed QS columns in landscape</string>
     <string name="qqs_columns_landscape_min" translatable="false">@string/qs_columns_landscape_min</string>
     <string name="qqs_columns_landscape_max" translatable="false">@string/qs_columns_landscape_max</string>
 
     <!-- Clock position -->
-    <string name="status_bar_clock_position_center">Center</string>
+    <string name="status_bar_clock_position_center">Center (Visible only on screenshots)</string>
     <string name="status_bar_clock_position_left">Left</string>
     <string name="status_bar_clock_position_right">Right</string>
     <string name="status_bar_clock_position_title">Clock position</string>
@@ -252,37 +252,37 @@
 
     <!-- Screen off animation -->
     <string name="default_string">Default</string>
-    <string name="screen_off_animation_title">Screen off animation (SystemUI restart required)</string>
-    <string name="screen_off_animation_crt" translatable="false">CRT</string>
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_crt" translatable="false">Cathode-ray tube</string>
     <string name="screen_off_animation_scale">Scale</string>
 
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Expert power menu</string>
+    <string name="global_actions_advanced_reboot_summary">Show additional reboot options for recovery and bootloader</string>
 
     <!-- Ignore window secure -->
-    <string name="ignore_window_secure_title">Ignore window secure flags</string>
-    <string name="ignore_window_secure_summary">This removes the screenshots and screenrecords limits for all applications. Normally, special applications are replaced with black areas in records. This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <string name="ignore_window_secure_title">Enable screenshotting in secure apps</string>
+    <string name="ignore_window_secure_summary">Allows taking screenshots in secure apps (Banking apps, Browser incoginto mode...). After changing this toggle, you may need to restart applications for the change to take effect. Please use with caution!</string>
 
     <!-- Less boring heads up -->
-    <string name="less_boring_heads_up_title">Priority heads up</string>
+    <string name="less_boring_heads_up_title">Priority only heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages, alarms, reminders and priority conversations</string>
 
 
     <!-- QS Tiles haptic -->
-    <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>    
+    <string name="qs_tiles_haptic_feedback_title">Enable Haptic feedback (Vibration) on changing quick settings</string>    
 
     <!-- Disable QS -->
-    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
-    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+    <string name="disable_qs_title">Protected Quick Settings</string>
+    <string name="disable_qs_summary">Prevents usage of Quick Settings on lockscreen with password. Does not disable notification panel.</string>
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged or unplugged.</string>
 
     <!-- Double tap to sleep on status bar or lockscreen -->
-    <string name="status_bar_double_tap_to_sleep_title">Tap to sleep</string>
-    <string name="status_bar_double_tap_to_sleep_summary">Double-tap on the status bar or lockscreen to turn off the display</string>
+    <string name="status_bar_double_tap_to_sleep_title">Double tap to sleep</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Double tap on the status bar turns off the display</string>
 
     <!-- Privacy Indicator -->
     <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
@@ -293,17 +293,17 @@
     <string name="projection_privacy_indicator_summary">Show indicator when device screen is projected</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume wake</string>
+    <string name="volume_rocker_wake_title">Volume buttons wake the device</string>
     <string name="volume_rocker_wake_summary">Wake your device up by pressing the volume keys</string>
 
     <!-- Footer -->
-    <string name="qs_footer_category">QS Footer</string>
+    <string name="qs_footer_category">Additional info in Quick Settings</string>
     <string name="qs_footer_datausage_title">Data usage</string>
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
     <!-- Status bar - Battery -->    
     <string name="status_bar_battery_category_title">StatusBar Battery customizations</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_title">Battery icon style</string>
     <string name="status_bar_battery_style_summary">Statusbar and QS Battery Styles</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
@@ -340,7 +340,7 @@
          charging</string>
 
     <!-- QS battery -->
-    <string name="qs_battery_category_title">Qs Battery customizations</string>
+    <string name="qs_battery_category_title">QS Battery icon customizations</string>
     <string name="qs_use_status_bar_battery_style">Follow status bar style</string>
 
     <!-- custom charging icon styles -->
@@ -405,8 +405,8 @@
     <string name="custom_battery_right">Margin Right</string>
 
     <!-- UI settings -->
-    <string name="monet_title">Monet settings</string>
-    <string name="monet_summary">Customize Monet theme engine</string>
+    <string name="monet_title">MaterialYou settings</string>
+    <string name="monet_summary">Customize MaterialYou's Monet theme engine</string>
 
     <!-- Monet Engine -->
     <string name="monet_engine_custom_color_title">Accent color</string>
@@ -433,7 +433,7 @@
     <!-- Pulse music visualizer -->
     <string name="lockscreen_media">Lockscreen media settings</string>
     <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer when music plays on the device</string>
+    <string name="pulse_help_policy_notice_summary">Pulse is a audio graphic equalizer, that is automatically enabled when music plays on the device</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Audio graphic equalizer for navigation bar and lockscreen</string>
     <string name="show_navbar_pulse_title">Navbar Pulse</string>
@@ -480,8 +480,8 @@
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
 
     <!-- Island Notification -->
-    <string name="island_notification_title">Island notification</string>
-    <string name="island_notification_summary">Display heads-up notification in Dynamic Island style</string>
+    <string name="island_notification_title">Island notifications</string>
+    <string name="island_notification_summary">Display heads-up notification inspired by Dynamic Island</string>
     <string name="island_notification_now_playing_title">Island Now Playing</string>
     <string name="island_notification_now_playing_summary">Display currently playing song as Dynamic Island notification</string>
     <string name="island_notification_footer_text">
@@ -490,7 +490,7 @@
     
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">Unlimited Photos storage</string>
-    <string name="use_photos_spoof_summary">Spoof your device as Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
+    <string name="use_photos_spoof_summary">Spoof your device as Google Pixel XL for Google Photos app only to provide unlimited storage for backup</string>
 
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">Unlock higher FPS in games</string>
@@ -509,9 +509,10 @@
     <string name="status_bar_clock_show_seconds_desc">Show hours, minutes, and seconds</string>
 
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings Styles</string>
-    <string name="settings_dashboard_style_1">New UI (Currently in Android 14)</string>
-    <string name="settings_dashboard_style_2">Old UI (Previously in Android 12.1 and 13)</string>
+    <string name="settings_dashboard_style_title">Settings app style</string>
+    <string name="settings_dashboard_style_1">Modern</string>
+    <string name="settings_dashboard_style_2">Classic</string>
+	<string name="settings_dashboard_style_3">Colorful</string>
 
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Clear all notification button</string>
@@ -525,13 +526,13 @@
     <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
     <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
     <string name="flashlight_on_call_always">Always</string>
-    <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Ignore do not disturb</string>
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
     <string name="flashlight_on_call_rate_title">Rate</string>
     <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
 
     <!-- UDFPS settings -->
-    <string name="udfps_category">UDFPS</string>
+    <string name="udfps_category">Under display fingerprint sensor</string>
     <string name="enable">Enable</string>
     <string name="udfps_settings_title">UDFPS customization</string>
     <string name="udfps_settings_summary">Customize under-display fingerprint scanner</string>
