@@ -410,6 +410,7 @@
     <string-array name="settings_dashboard_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
+		<item>2</item>
     </string-array>
 
     <!-- Blink flashlight for incoming calls -->
